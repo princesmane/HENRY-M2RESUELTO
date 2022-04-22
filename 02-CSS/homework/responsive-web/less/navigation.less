@@ -3,16 +3,21 @@ nav{
     .flex(column, center, center);
    padding: 15px;
     background-color: @nav-bg;
+    position: sticky;
+    top: 0;
+
     ul{
         .flex(row, space-around, center);
         padding-top: 10px;
         width: 40%;
+
         a{
             font-size: 15px;
             color: @nav-font;
             text-decoration: none;
         }
-        @media @phone{
+        
+        @media screen and (max-width: @phone){
             width: 80%;
         }
     }

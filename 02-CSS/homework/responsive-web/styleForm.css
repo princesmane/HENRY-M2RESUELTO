@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.form {
+    width: 400px;
+    background: rgb(21, 27, 72);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    font-family: 'lucida Sans';
+    color: white;
+    box-shadow: 10px 15px 43px #000;
+    display: grid;
+/*     grid-template-columns:1fr 1fr;
+    grid-gap: 16px;
+ */
+
+}
+
+.form h1{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+   
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.date {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 16px;
+    background: rgb(243, 244, 246);
+    border-radius: 4px;
+    border: 1px solid rgba(85, 0, 255, 0.835);
+    font-family: 'geneva';
+    font-size: 18px;
+    color: rgb(21, 27, 72);
+    
+
+}
+
+.button{
+    padding: 16px;
+    color: white;
+    width: 60%;
+    background: rgb(1, 1, 33);
+    border: none;
+    margin: auto;
+    font-size: 20px;
+    display: inline-block;
+
+}
+
+
+.form p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form a{
+    color: white;
+    text-decoration: underline;
+}
+
+body{
+    background-image: url('fondoform.jpg');
+}
