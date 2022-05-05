@@ -1,0 +1,90 @@
+/*.cualquiercosa{
+    width: 350px;
+    border: 2px solid rgb(156, 156, 168);
+    border-radius: 10px;
+    box-shadow: 1px 1 px 4px #8d99ae;
+    background-color: rgba(250, 23, 231, 0.2);
+    height: 15rem;
+    box-shadow: 1px 2px 4px #8d99ae;
+     display: flex;
+    flex-direction: column; 
+}
+
+.titulo{
+    justify-content: center;
+}
+
+/* .minimo{
+    display: inline;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.maximo{
+    display: inline;
+    flex-direction: column;
+    justify-content: flex-end;
+} */
+
+/* .imagen{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.boton{
+    background-color: rgb(254, 124, 222);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: flex-end;  
+}
+
+.temperatura{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} */
+
+.cualquiercosa{
+    background-color: aqua;
+    width: 350px;
+    border: 2px solid rgb(156, 156, 168);
+    border-radius: 10px;
+    box-shadow: 1px 1 px 4px #8d99ae;
+    background-color: rgba(250, 23, 231, 0.2);
+}
+
+.titulacion{
+    display:flex;
+    justify-content: center;
+}
+
+.botoncito{
+    position: relative;
+    margin-left: 300px;
+    background-color: rgb(254, 124, 222);
+    border-radius: 50%;
+    color: white;
+    top: 10px;
+}
+
+.temperaturas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.minimo{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.maximo{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
