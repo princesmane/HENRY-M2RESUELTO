@@ -1,0 +1,83 @@
+/* input{
+    padding: 8px;
+    border: none;
+    font-family: 'Noto Sans';
+} 
+
+input::placeholder{
+    font-family: 'Verdana, Geneva, Tahoma, sans-serif';
+    font-weight: 300;
+}*/
+
+/* From uiverse.io by @Yaseen549 */
+.inputS {
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #e8e8e8;
+    box-shadow: 6px 6px 12px #ffffff,
+                -6px -6px 12px #c5c5c5;
+    font-size: medium;
+    font-weight: bold;
+    max-width: 200px;
+   }
+   
+   .inputS:focus {
+    outline-color: white;
+    place-content: "Enter your message!";
+   }
+
+
+
+
+
+
+.botonSearch {
+ --glow-color: rgb(255, 176, 247);
+ --glow-spread-color: rgba(255, 178, 252, 0.781);
+ --enhanced-glow-color: rgb(231, 206, 255);
+ --btn-color: rgb(90, 7, 62);
+ border: .25em solid var(--glow-color);
+ padding: .8em 1.5em;
+ color: var(--glow-color);
+ font-size: 15px;
+ font-weight: bold;
+ background-color: var(--btn-color);
+ border-radius: 1em;
+ outline: none;
+ box-shadow: 0 0 1em .1em var(--glow-color),
+        0 0 4em 1em var(--glow-spread-color),
+        inset 0 0 .1em .1em var(--glow-color);
+ text-shadow: 0 0 .1em var(--glow-color);
+ position: relative;
+ transition: all 0.3s;
+}
+
+.botonSearch::after {
+ pointer-events: none;
+ content: "";
+ position: absolute;
+ top: 120%;
+ left: 0;
+ height: 100%;
+ width: 100%;
+ background-color: var(--glow-spread-color);
+ filter: blur(2em);
+ opacity: .7;
+ transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+ color: var(--btn-color);
+}
+
+.botonSearch:hover {
+ color: var(--btn-color);
+ background-color: var(--glow-color);
+ box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 2em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+}
+
+.botonSearch:active {
+ box-shadow: 0 0 0.6em .25em var(--glow-color),
+        0 0 2.5em 2em var(--glow-spread-color),
+        inset 0 0 .5em .25em var(--glow-color);
+}

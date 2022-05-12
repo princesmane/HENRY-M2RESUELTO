@@ -19,7 +19,10 @@ export default function Cards({cities, onClose}) {
     );
   } else {
     return(
-      <div>Sin ciudades</div>
+      <div className='error'> 
+          <h1>No hay ciudades para mostrar</h1>
+          <img src="https://images.emojiterra.com/google/android-11/512px/1f625.png" alt="" />
+      </div>
     )
   }
 }

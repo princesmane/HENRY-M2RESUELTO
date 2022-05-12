@@ -1,12 +1,19 @@
 *{
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 
 }
 
+.input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 .form {
-    width: 400px;
+    min-width: 400px;
+    width: 60vw;                    /* cuando inicie es el 60% de la pantalla  */
     background: rgb(21, 27, 72);
     padding: 30px;
     margin: auto;
@@ -14,11 +21,6 @@
     font-family: 'lucida Sans';
     color: white;
     box-shadow: 10px 15px 43px #000;
-    display: grid;
-/*     grid-template-columns:1fr 1fr;
-    grid-gap: 16px;
- */
-
 }
 
 .form h1{
@@ -29,6 +31,7 @@
 }
 
 .container{
+    display: flex;
     justify-content: center;
     align-items: center;
     
@@ -36,7 +39,7 @@
 }
 .date {
     padding: 10px;
-    width: 100%;
+    min-width: 5rem;
     margin-bottom: 16px;
     background: rgb(243, 244, 246);
     border-radius: 4px;
@@ -44,8 +47,6 @@
     font-family: 'geneva';
     font-size: 18px;
     color: rgb(21, 27, 72);
-    
-
 }
 
 .button{
@@ -56,8 +57,8 @@
     border: none;
     margin: auto;
     font-size: 20px;
-    display: inline-block;
-
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -75,4 +76,8 @@
 
 body{
     background-image: url('fondoform.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
 }

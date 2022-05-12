@@ -33,7 +33,7 @@ var matchFunctionMaker = function(selector) {
 /*     matchFunction = function(elementoDelDom){
       if('#' + elementoDelDom.id === selector){
         return true
-      } else return false;
+      } else return false; 
     } */
     matchFunction = (elementoDelDom) => `#${elementoDelDom.id}` === selector
    
@@ -53,7 +53,7 @@ var matchFunctionMaker = function(selector) {
        let tagClass = selector.split('.');
       let tagBuscado = tagClass[0];
       let classBuscado = tagClass[1]; 
-      let [tagBuscado, classBuscado] = selector.split('.'); // va a devolverme el tagClass en la posicion 0 y 1 para cada valor respectivamente.
+      Otra manera de resumir estas dos variables anteriores: let [tagBuscado, classBuscado] = selector.split('.'); // va a devolverme el tagClass en la posicion 0 y 1 para cada valor respectivamente.
       
       let matchFunctionTag = matchFunctionMaker(tagBuscado);
       let respuestaMatchTag = matchFunctionTag(elementoDelDom);

@@ -146,6 +146,12 @@ function displayToDos() {
 function addToDo() {
   // Tu código acá:
   let input = document.querySelector('#toDoInput');
+  //valor agregado por mi: 
+  
+  if (!input.value || input.value === ' ') return alert('Tu mensaje está vacio, debes crear tareas factibles')
+  
+  //continuación de la homework: 
+
   let nuevoToDo = new ToDo(input.value)
 
   toDoItems.push(nuevoToDo);
@@ -183,9 +189,6 @@ function completeToDo(event) {
   toDoItems[indexDelItem].completeToDo; //Este completeToDo es el método de la clase, más no esta función
   
   displayToDos();
-
-
-
 
 }
 

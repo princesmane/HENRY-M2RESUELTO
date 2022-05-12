@@ -53,6 +53,7 @@
     border-radius: 10px;
     box-shadow: 1px 1 px 4px #8d99ae;
     background-color: rgba(250, 23, 231, 0.2);
+    position: relative;
 }
 
 .titulacion{
@@ -61,12 +62,13 @@
 }
 
 .botoncito{
-    position: relative;
+    position: absolute;
     margin-left: 300px;
     background-color: rgb(254, 124, 222);
     border-radius: 50%;
     color: white;
     top: 10px;
+    
 }
 
 .temperaturas{
