@@ -1,5 +1,10 @@
 .cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
 }
+
+:focus {
+  outline: none;
+};

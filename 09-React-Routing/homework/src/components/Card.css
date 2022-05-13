@@ -1,4 +1,4 @@
-.card {
+/* .card {
   margin: 20px;
   width: 18rem;
 }
@@ -17,4 +17,62 @@
 .card-body {
   margin-top: 0px !important;
   padding-top: 0px !important;
+}
+ */
+
+ .cualquiercosa{
+  background-color: aqua;
+  width: 20rem;
+  border-radius: 10px;
+  box-shadow: 2px 5px 5px #b013b574;
+  background-color: rgba(250, 23, 231, 0.2);
+  position: relative;
+  height: 10rem;
+  margin: 1rem;
+}
+
+.card-title{
+  font-family: 'Gill Sans';
+  font-size: 20pt;
+}
+
+.error{
+  font-family: 'Trebuchet MS';
+  font-size: 17pt;
+}
+
+.botoncito{
+  position: absolute;
+  margin-left: 17rem;
+  background-color: rgb(254, 124, 222);
+  border-radius: 50%;
+  color: white;
+  top: 5px;
+  
+}
+
+.temperaturas{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.minimo{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  font-size: 18pt;
+}
+
+.maximo{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  font-size: 18pt;
+}
+
+.cityDate{
+  
 }
